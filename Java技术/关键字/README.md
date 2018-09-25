@@ -1,4 +1,4 @@
-# volatile 
+# volatile
 
 # synchronized
 
