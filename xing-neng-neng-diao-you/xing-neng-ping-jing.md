@@ -78,9 +78,7 @@ pidstat -d
 * kB\_ccwr/s：任务取消的写入磁盘的KB、当任务截断脏的pagecache的时候会发生。
 * COMMAND:task的命令名
 
-
-
-###### \#\#\#\#\# 查看特定进程的CPU使用情况 {#1-查看特定进程的cpu使用情况}
+##### 查看特定进程的CPU使用情况 {#1-查看特定进程的cpu使用情况}
 
 指令：`pidstat –u –p {pid} {interval} [count]`  
 例子：``pidstat -u –p `pgrep admin` 1 10``
