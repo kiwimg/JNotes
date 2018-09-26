@@ -203,7 +203,5 @@ wa：处理器在等待IO操作完成以继续处理任务上的时间。
 | 网络 | 满载 | 5、ifconfig dropped 有计数6、netstat -s “segments restransmited”有计数7、sar -n DEV rxdrop txdrop 有计数 | 统计的丢包有计数证明已经满载了 |
 | 网络 | 错误 | 8、ifconfig, ‘errors’9、netstat -I, “RX-ERR”/”TX-ERR”10、sar -n EDEV, “rxerr/s”,”txerr/s”11、ip -s link, “errors” | 错误有计数 |
 
- --------------------- 本文来自 timchen525 的CSDN 博客 ，全文地址请点击：https://blog.csdn.net/timchen525/article/details/75331014?utm\_source=copy
-
 
 
