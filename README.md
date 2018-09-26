@@ -10,7 +10,7 @@
 
 ## 关键字
 
-[volatile关键字](http://www.docrepository.org "volatile关键字")
+[volatile关键字](/javaji-zhu/guan-jian-zi/volatile.md)
 
 # 网络协议
 
