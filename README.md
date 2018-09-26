@@ -10,7 +10,7 @@
 
 ## 关键字
 
-\[volatile关键字\]\(http://www.docrepository.org "volatile关键字"\)
+[volatile关键字](http://www.docrepository.org "volatile关键字")
 
 # 网络协议
 
