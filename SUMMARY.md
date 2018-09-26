@@ -23,4 +23,12 @@
   * Http协议
   * websocket
   * 一个URL请求过程
+* [算法与原理](suan-fa-yu-yuan-li.md)
+  * 分布式Hash算法
+  * 缓存算法
+  * 限流算法
+  * 红黑树
+  * BTree
+  * 倒排索引
+  * 环形缓冲区\(Ringbuffer\)
 
