@@ -42,7 +42,9 @@ public class SynchronizedTest {
 
 ### Java对象头
 
-HotSpot虚拟机中，对象在内存中存储的布局可以分为三块区域：对象头（Header）、实例数据（Instance Data）和对齐填充（Padding）。 对象头主要包括两部分数据：**Mark Word（标记字段）**、**Klass Pointer（类型指针）**
+HotSpot虚拟机中，对象在内存中存储的布局可以分为三块区域：对象头（Header）、实例数据（Instance Data）和对齐填充（Padding）。 对象头主要包括两部分数据：**Mark Word（标记字段）**、**Klass Pointer（类型指针）**
 
+#### “Mark Word”
 
+HotSpot虚拟机的对象头\(Object Header\)包括两部分信息，第一部分用于存储对象自身的运行时数据， 如哈希码（HashCode）、GC分代年龄、锁状态标志、线程持有的锁、偏向线程ID、偏向时间戳等等，这部分数据的长度在32位和64位的虚拟机（暂 不考虑开启压缩指针的场景）中分别为32个和64个Bits，官方称它为“Mark Word”。
 
