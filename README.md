@@ -55,6 +55,8 @@
 
 ### [性能指标](/xing-neng-neng-diao-you/xing-neng-zhi-biao.md)
 
+### [性能瓶颈](/xing-neng-neng-diao-you/xing-neng-ping-jing.md)
+
 # 设计模式
 
 # 操作系统
