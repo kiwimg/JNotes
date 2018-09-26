@@ -91,6 +91,20 @@ pidstat -d
 
 指令：pidstat –d –p {pid} {interval} \[count\]
 
+#### iostat
+
+iostat是I/O statistics（输入/输出统计）的缩写，用来动态监视系统的磁盘操作活动
+
+用法：iostat \[ 选项 \] \[ &lt;时间间隔&gt; \[ &lt;次数&gt; \]\]
+
+常用选项说明：
+
+`-c：只显示系统CPU统计信息，即单独输出avg-cpu结果，不包括device结果  
+ -d：单独输出Device结果，不包括cpu结果  
+ -k/-m：输出结果以kB/mB为单位，而不是以扇区数为单位  
+ -x:输出更详细的io设备统计信息  
+ interval/count：每次输出间隔时间，count表示输出次数，不带count表示循环输出`
+
 ### 网络IO
 
 
