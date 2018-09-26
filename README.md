@@ -8,24 +8,24 @@
 
 # java技术
 
-## 关键字
+### 关键字
 
 * [volatile关键字](/javaji-zhu/guan-jian-zi/volatile.md)
 * [synchronized](/javaji-zhu/guan-jian-zi/synchronized.md)
 * [final](/javaji-zhu/guan-jian-zi/final.md)
 * [static](/javaji-zhu/guan-jian-zi/static.md)
 
-## JVM
+### JVM
 
-## 多线程
+### 多线程
 
-## 常用类
+### 常用类
 
-## NIO
+### NIO
 
-## java锁
+### java锁
 
-## java各个版本变化
+### java各个版本变化
 
 # 网络协议
 
