@@ -25,20 +25,21 @@
   * websocket
   * 一个URL请求过程
 * [算法与原理](suan-fa-yu-yuan-li.md)
-  * 缓存算法
+  * [缓存算法](suan-fa-yu-yuan-li/huan-cun-suan-fa.md)
   * [分布式Hash算法](suan-fa-yu-yuan-li/fen-bu-shi-hash-suan-fa.md)
-  * 限流算法
-  * 红黑树
-  * BTree
-  * 倒排索引
-  * 环形缓冲区\(Ringbuffer\)
-  * LSM 树
+  * [限流算法](suan-fa-yu-yuan-li/xian-liu-suan-fa.md)
+  * [红黑树](suan-fa-yu-yuan-li/hong-hei-shu.md)
+  * [BTree](suan-fa-yu-yuan-li/btree.md)
+  * [倒排索引](suan-fa-yu-yuan-li/dao-pai-suo-yin.md)
+  * [环形缓冲区\(Ringbuffer\)](suan-fa-yu-yuan-li/huan-xing-huan-chong-533a28-ringbuffer.md)
+  * [LSM 树](suan-fa-yu-yuan-li/lsm-shu.md)
 * [数据库](shu-ju-ku.md)
 * [分布式](fen-bu-shi.md)
 * [消息中间件](xiao-xi-zhong-jian-jian.md)
 * [性能调优](xing-neng-neng-diao-you.md)
   * [性能指标](xing-neng-neng-diao-you/xing-neng-zhi-biao.md)
   * [性能瓶颈](xing-neng-neng-diao-you/xing-neng-ping-jing.md)
+  * [java性能监控工具](xing-neng-neng-diao-you/javaxing-neng-jian-kong-gong-ju.md)
 * [设计模式](she-ji-mo-shi.md)
 * [操作系统](cao-zuo-xi-tong.md)
 * [海量数据](hai-liang-shu-ju.md)
