@@ -6,7 +6,7 @@
     * [volatile](javaji-zhu/guan-jian-zi/volatile.md)
     * [synchronized](javaji-zhu/guan-jian-zi/synchronized.md)
     * [final](javaji-zhu/guan-jian-zi/final.md)
-    * static
+    * [static](javaji-zhu/guan-jian-zi/static.md)
   * [JVM](javaji-zhu/jvm.md)
     * [ClassLoader](javaji-zhu/jvm/classloader.md)
     * [JVM构造](javaji-zhu/jvm/jvmgou-zao.md)
