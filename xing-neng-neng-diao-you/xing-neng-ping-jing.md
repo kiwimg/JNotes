@@ -75,7 +75,7 @@ pidstat -d
 * PID：进程id
 * kB\_rd/s：每秒从磁盘读取的KB
 * kB\_wr/s：每秒写入磁盘KB
-* kB\_ccwr/s：任务取消的写入磁盘的KB。当任务截断脏的pagecache的时候会发生。
+* kB\_ccwr/s：任务取消的写入磁盘的KB、当任务截断脏的pagecache的时候会发生。
 * COMMAND:task的命令名
 
 ### 网络IO
