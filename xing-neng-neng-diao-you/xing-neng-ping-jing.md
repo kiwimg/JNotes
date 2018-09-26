@@ -99,7 +99,7 @@ iostat是I/O statistics（输入/输出统计）的缩写，用来动态监视�
 
 常用选项说明：
 
-```py
+```css
 -c：只显示系统CPU统计信息，即单独输出avg-cpu结果，不包括device结果
 -d：单独输出Device结果，不包括cpu结果
 -k/-m：输出结果以kB/mB为单位，而不是以扇区数为单位
