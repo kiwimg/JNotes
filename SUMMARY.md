@@ -39,8 +39,8 @@
 * [性能调优](xing-neng-neng-diao-you.md)
 * [设计模式](she-ji-mo-shi.md)
 * [操作系统](cao-zuo-xi-tong.md)
-* 海量数据
+* [海量数据](hai-liang-shu-ju.md)
 * [安全方面](an-quan-fang-mian.md)
 * [常用架构方案](chang-yong-jia-gou-fang-an.md)
-* 安装手册
+* [安装手册](an-zhuang-shou-ce.md)
 
