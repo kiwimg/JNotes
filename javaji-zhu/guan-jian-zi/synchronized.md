@@ -32,7 +32,7 @@ public class SynchronizedTest {
 
 ![](/assets/importsynyanli.png)
 
-从上面可以看出，同步代码块是使用**monitorenter**和**monitorexit**指令实现的，同步方法（在这看不出来需要看JVM底层实现）依靠的是方法修饰符上的ACC\_SYNCHRONIZED实现。
+从反编译获得的字节码可以看出，同步代码块是使用**monitorenter**和**monitorexit**指令实现的，同步方法（在这看不出来需要看JVM底层实现）依靠的是方法修饰符上的ACC\_SYNCHRONIZED标记设置实现。
 
 同步代码块：monitorenter指令插入到同步代码块的开始位置，monitorexit指令插入到同步代码块的结束位置，JVM需要保证每一个monitorenter都有一个monitorexit与之相对应。任何对象都有一个monitor与之相关联，当且一个monitor被持有之后，他将处于锁定状态。线程执行到monitorenter指令时，将会尝试获取对象所对应的monitor所有权，即尝试获取对象的锁；
 
@@ -68,6 +68,11 @@ Monitor 是线程私有的数据结构，每一个线程都有一个可用monito
 * **Nest**:用来实现重入锁的计数。
 * **HashCode**:保存从对象头拷贝过来的HashCode值（可能还包含GC age）。
 * **Candidate**:用来避免不必要的阻塞或等待线程唤醒，因为每一次只有一个线程能够成功拥有锁，如果每次前一个释放锁的线程唤醒所有正在阻塞或等待的线程，会引起不必要的上下文切换（从阻塞到就绪然后因为竞争锁失败又被阻塞）从而导致性能严重下降。Candidate只有两种可能的值0表示没有需要唤醒的线程1表示要唤醒一个继任线程来竞争锁。 
+
+![](/assets/importmxianc.png)  
+                                                       对象，对象监视器，同步队列和线程状态的关系
+
+该图可以看出，任意线程对Object的访问，首先要获得Object的监视器，如果获取失败，该线程就进入同步状态，线程状态变为BLOCKED，当Object的监视器占有者释放后，在同步队列中得线程就会有机会重新获取该监视器。
 
 我们知道synchronized是重量级锁，效率不怎么滴，同时这个观念也一直存在我们脑海里，不过在jdk 1.6中对synchronize的实现进行了各种优化，使得它显得不是那么重了，那么JVM采用了那些优化手段呢？
 
