@@ -40,5 +40,9 @@ public class SynchronizedTest {
 
 ## 了解两个重要的概念：Java对象头，Monitor
 
+### Java对象头
+
+HotSpot虚拟机中，对象在内存中存储的布局可以分为三块区域：对象头（Header）、实例数据（Instance Data）和对齐填充（Padding）。 对象头主要包括两部分数据：**Mark Word（标记字段）**、**Klass Pointer（类型指针）**
+
 
 
