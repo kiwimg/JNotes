@@ -44,6 +44,8 @@ CPU使用率分为用户态cpu使用率和系统态cpu使用率，所以提高�
 
 ### 文件IO
 
+文件IO需要关注 - 磁盘IO分别在哪些盘、- 读IO和写IO的比例、- 读IO是顺序的还是随机的
+
 使用系统工具pidstat、iostat、vmstat来查看io的状况
 
 #### pidstat
@@ -190,6 +192,8 @@ wa：处理器在等待IO操作完成以继续处理任务上的时间。
 ```
 
 ### 网络IO
+
+网络IO需要关注IOPS、带宽、IO的尺寸（大小），ping：最基本的，可以指定包的大小。iperf、ttcp：测试tcp、udp协议最大的带宽、延时、丢包。
 
 #### netstat
 
