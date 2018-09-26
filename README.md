@@ -10,7 +10,9 @@
 
 ## 关键字
 
-     \[volatile关键字\]\(http://www.docrepository.org "MarkDown文档仓库"\)
+```
+ [volatile关键字](http://www.docrepository.org "MarkDown文档仓库")
+```
 
 # 网络协议
 
