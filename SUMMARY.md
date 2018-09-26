@@ -14,8 +14,8 @@
     * [java多线程](javaji-zhu/duo-xian-cheng/javaduo-xian-cheng.md)
   * [常用类](javaji-zhu/chang-yong-lei.md)
   * [NIO](javaji-zhu/nio.md)
+  * [java锁](javaji-zhu/javasuo.md)
   * [java版本变化](javaji-zhu/javaban-ben-bian-hua.md)
-  * java锁
 * [网络协议](wang-luo-xie-yi.md)
   * [网络参考模型](wang-luo-xie-yi/wang-luo-can-kao-mo-xing.md)
   * [TCP协议](wang-luo-xie-yi/tcpxie-yi.md)
