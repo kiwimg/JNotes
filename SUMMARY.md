@@ -8,7 +8,8 @@
   * [JVM](javaji-zhu/jvm.md)
     * [ClassLoader](javaji-zhu/jvm/classloader.md)
     * [JVM构造](javaji-zhu/jvm/jvmgou-zao.md)
-  * 多线程
+  * [多线程](javaji-zhu/duo-xian-cheng.md)
+    * [java多线程](javaji-zhu/duo-xian-cheng/javaduo-xian-cheng.md)
   * 常用类
   * NIO
   * java版本变化
