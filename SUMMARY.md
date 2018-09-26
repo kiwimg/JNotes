@@ -25,8 +25,8 @@
   * websocket
   * 一个URL请求过程
 * [算法与原理](suan-fa-yu-yuan-li.md)
-  * 分布式Hash算法
   * 缓存算法
+  * [分布式Hash算法](suan-fa-yu-yuan-li/fen-bu-shi-hash-suan-fa.md)
   * 限流算法
   * 红黑树
   * BTree
