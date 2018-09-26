@@ -44,7 +44,9 @@ CPU使用率分为用户态cpu使用率和系统态cpu使用率，所以提高�
 
 ### 文件IO
 
-文件IO需要关注 - 磁盘IO分别在哪些盘、- 读IO和写IO的比例、- 读IO是顺序的还是随机的
+文件IO需要关注 - 磁盘IO分别在哪些盘  
+、- 读IO和写IO的比例  
+、- 读IO是顺序的还是随机的
 
 使用系统工具pidstat、iostat、vmstat来查看io的状况
 
@@ -193,9 +195,15 @@ wa：处理器在等待IO操作完成以继续处理任务上的时间。
 
 ### 网络IO
 
-网络IO需要关注IOPS、带宽、IO的尺寸（大小），ping：最基本的，可以指定包的大小。iperf、ttcp：测试tcp、udp协议最大的带宽、延时、丢包。
+网络IO需要关注IOPS、带宽、IO的尺寸（大小），ping：最基本的，可以指定包的大小。iperf、ttcp：测试tcp、udp协议最大的带宽、延时、丢包。使用的命令有sar、ifconfig、netstat以及查看net的dev速率
 
-#### netstat
+| **模块** | **类型** | **度量方法** | **衡量标准** |
+| :--- | :--- | :--- | :--- |
+| 网络 | 使用情况 | 1、sar -n DEV 的收发计数大于网卡上限2、ifconfig RX/TX 带宽超过网卡上限3、cat /proc/net/dev 的速率超过上限4、nicstat 的util基本满负载 | 1、收发包的吞吐率达到网卡上限2、有延迟3、有丢包4、有阻塞 |
+| 网络 | 满载 | 5、ifconfig dropped 有计数6、netstat -s “segments restransmited”有计数7、sar -n DEV rxdrop txdrop 有计数 | 统计的丢包有计数证明已经满载了 |
+| 网络 | 错误 | 8、ifconfig, ‘errors’9、netstat -I, “RX-ERR”/”TX-ERR”10、sar -n EDEV, “rxerr/s”,”txerr/s”11、ip -s link, “errors” | 错误有计数 |
+
+ --------------------- 本文来自 timchen525 的CSDN 博客 ，全文地址请点击：https://blog.csdn.net/timchen525/article/details/75331014?utm\_source=copy
 
 
 
