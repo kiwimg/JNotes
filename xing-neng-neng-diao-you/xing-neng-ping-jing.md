@@ -71,7 +71,19 @@ yum install sysstat
 * -I：在SMP环境，表示任务的CPU使用率/内核数量
 * -l：显示命令名和所有参数
 
-![](/assets/importpidstat .png)
+```
+pidstat -d
+```
+
+![](/assets/importiopid.png)
+
+报告IO统计显示以下信息：
+
+* PID：进程id
+* kB\_rd/s：每秒从磁盘读取的KB
+* kB\_wr/s：每秒写入磁盘KB
+* kB\_ccwr/s：任务取消的写入磁盘的KB。当任务截断脏的pagecache的时候会发生。
+* COMMAND:task的命令名
 
 ### 网络IO
 
