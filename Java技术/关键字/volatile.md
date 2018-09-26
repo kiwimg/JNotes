@@ -50,5 +50,5 @@ Java 语言中的 volatile 变量可以被看作是一种 “程度较轻的 syn
 
 ### 三、Java内存模型
 
-
+![](/assets/importncmx.png)
 
