@@ -71,6 +71,8 @@ yum install sysstat
 * -I：在SMP环境，表示任务的CPU使用率/内核数量
 * -l：显示命令名和所有参数
 
+![](/assets/importpidstat .png)
+
 ### 网络IO
 
 
