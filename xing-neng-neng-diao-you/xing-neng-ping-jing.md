@@ -107,6 +107,36 @@ iostat是I/O statistics（输入/输出统计）的缩写，用来动态监视�
 interval/count：每次输出间隔时间，count表示输出次数，不带count表示循环输出`
 ```
 
+### ![](/assets/importiostat.png)
+
+### cpu属性值说明：
+
+```
+%user：CPU处在用户模式下的时间百分比。
+%nice：CPU处在带NICE值的用户模式下的时间百分比。
+%system：CPU处在系统模式下的时间百分比。
+%iowait：CPU等待输入输出完成时间的百分比。
+%steal：管理程序维护另一个虚拟处理器时，虚拟CPU的无意识等待时间百分比。
+%idle：CPU空闲时间百分比。
+```
+
+#### disk属性值说明：
+
+```
+rrqm/s: 每秒进行 merge 的读操作数目。即 rmerge/s
+wrqm/s: 每秒进行 merge 的写操作数目。即 wmerge/s
+r/s: 每秒完成的读 I/O 设备次数。即 rio/s
+w/s: 每秒完成的写 I/O 设备次数。即 wio/s
+rsec/s: 每秒读扇区数。即 rsect/s
+wsec/s: 每秒写扇区数。即 wsect/s
+rkB/s: 每秒读K字节数。是 rsect/s 的一半，因为每扇区大小为512字节。
+wkB/s: 每秒写K字节数。是 wsect/s 的一半。avgrq-sz: 平均每次设备I/O操作的数据大小 (扇区)。
+avgqu-sz: 平均I/O队列长度。
+await: 平均每次设备I/O操作的等待时间 (毫秒)。
+svctm: 平均每次设备I/O操作的服务时间 (毫秒)。
+%util: 一秒中有百分之多少的时间用于 I/O 操作，即被io消耗的cpu百分比
+```
+
 ### 网络IO
 
 
