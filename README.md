@@ -13,6 +13,7 @@
 * [volatile关键字](/javaji-zhu/guan-jian-zi/volatile.md)
 * [synchronized](/javaji-zhu/guan-jian-zi/synchronized.md)
 * [final](/javaji-zhu/guan-jian-zi/final.md)
+* [static](/javaji-zhu/guan-jian-zi/static.md)
 
 # 网络协议
 
