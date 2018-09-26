@@ -37,6 +37,8 @@
 * [分布式](fen-bu-shi.md)
 * [消息中间件](xiao-xi-zhong-jian-jian.md)
 * [性能调优](xing-neng-neng-diao-you.md)
+  * [性能指标](xing-neng-neng-diao-you/xing-neng-zhi-biao.md)
+  * 性能瓶颈
 * [设计模式](she-ji-mo-shi.md)
 * [操作系统](cao-zuo-xi-tong.md)
 * [海量数据](hai-liang-shu-ju.md)
