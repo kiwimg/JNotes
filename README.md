@@ -53,6 +53,8 @@
 
 # 性能能调优
 
+### [性能指标](/xing-neng-neng-diao-you/xing-neng-zhi-biao.md)
+
 # 设计模式
 
 # 操作系统
