@@ -12,5 +12,5 @@ Java中每一个对象都可以作为锁，这是synchronized实现同步的基�
 
 ## 原理
 
-
+![](/assets/importsynyanli.png)
 
