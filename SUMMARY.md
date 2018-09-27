@@ -45,6 +45,9 @@
 * [海量数据](hai-liang-shu-ju.md)
 * [安全方面](an-quan-fang-mian.md)
 * [常用架构方案](chang-yong-jia-gou-fang-an.md)
+  * [容器方案](chang-yong-jia-gou-fang-an/rong-qi-fang-an.md)
 * [安装手册](an-zhuang-shou-ce.md)
   * [CentOS Docker 安装](an-zhuang-shou-ce/centos-docker-an-zhuang.md)
+* [T型知识](txing-zhi-shi.md)
+  * [云计算](txing-zhi-shi/yun-ji-suan.md)
 

@@ -90,13 +90,11 @@ sudo systemctl start docker
 
 由于本地没有hello-world这个镜像，所以会下载一个hello-world的镜像，并在容器内运行。
 
-
-
 到此，Docker 在 CentOS 系统的安装完成。
 
 ## 镜像加速
 
-鉴于国内网络问题，后续拉取 Docker 镜像十分缓慢，我们可以需要配置加速器来解决，我使用的是网易的镜像地址：http://hub-mirror.c.163.com。
+鉴于国内网络问题，后续拉取 Docker 镜像十分缓慢，我们可以需要配置加速器来解决，我使用的是网易的镜像地址：[http://hub-mirror.c.163.com。](http://hub-mirror.c.163.com。)
 
 新版的 Docker 使用 /etc/docker/daemon.json（Linux） 或者 %programdata%\docker\config\daemon.json（Windows） 来配置 Daemon。
 
