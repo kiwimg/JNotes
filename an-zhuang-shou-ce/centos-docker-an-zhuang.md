@@ -86,7 +86,7 @@ sudo systemctl start docker
 [root@runoob ~]# docker run hello-world
 ```
 
-![](/assets/importdchollo.png)
+![](/assets/importdchll.png)
 
 由于本地没有hello-world这个镜像，所以会下载一个hello-world的镜像，并在容器内运行。
 
