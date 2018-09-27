@@ -46,4 +46,5 @@
 * [安全方面](an-quan-fang-mian.md)
 * [常用架构方案](chang-yong-jia-gou-fang-an.md)
 * [安装手册](an-zhuang-shou-ce.md)
+  * [CentOS Docker 安装](an-zhuang-shou-ce/centos-docker-an-zhuang.md)
 
