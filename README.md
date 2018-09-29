@@ -75,9 +75,13 @@ BTree
 
 # 操作系统
 
-### [Linux](/cao-zuo-xi-tong/linux.md)
+### [CPU](/cao-zuo-xi-tong/cpu.md)
 
-### [硬盘](/cao-zuo-xi-tong/ying-pan.md)
+### [内存](/cao-zuo-xi-tong/nei-cun.md)
+
+### [硬盘](#)
+
+### [Linux](/cao-zuo-xi-tong/linux.md)
 
 ### [Vim编辑器](/cao-zuo-xi-tong/vimbian-ji-qi.md)
 
