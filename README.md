@@ -79,6 +79,8 @@ BTree
 
 ### [硬盘](/cao-zuo-xi-tong/ying-pan.md)
 
+### [Vim编辑器](/cao-zuo-xi-tong/vimbian-ji-qi.md)
+
 # 海量数据
 
 # 安全方面
