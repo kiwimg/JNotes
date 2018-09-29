@@ -32,15 +32,39 @@
 
 * 数字字面量的改进
 
-> 1、添加二进制表示
+> 1、添加二进制表示  
 > Java7之前支持十进制（123）、八进制（0123）、十六进制（0X12AB）  
-> Java7添加二进制表示（0B11110001、0b11110001）二进制前缀0b或者0B。整型（byte, short, int, long）可以直接用二进制表示。  
+> Java7添加二进制表示（0B11110001、0b11110001）二进制前缀0b或者0B。整型（byte, short, int, long）可以直接用二进制表示。
+>
 > 2、字面常量数字的下划线。
 >
-> 用下划线连接整数提升其可读性，自身无含义，不可用在数字的起始和末尾。  
+> 用下划线连接整数提升其可读性，自身无含义，不可用在数字的起始和末尾。
+>
 > int k = 1\_1;//值为11
 
 * switch中添加对String类型的支持。
+
+* try-with-resources
+
+* 捕获多个异常
+
+```java
+  try { 
+      result = field.get(obj);           
+  } catch (IllegalArgumentException | IllegalAccessException e) {          
+       e.printStackTrace();           
+   }
+```
+
+* 泛型实例化类型自动推断
+
+```java
+List<String> list = new ArrayList<String>();
+//java 7
+List<String> list = new ArrayList<>();
+```
+
+## java8
 
 
 
