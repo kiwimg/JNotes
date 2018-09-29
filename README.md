@@ -75,6 +75,10 @@ BTree
 
 # 操作系统
 
+### [Linux](/cao-zuo-xi-tong/linux.md)
+
+### [硬盘](/cao-zuo-xi-tong/ying-pan.md)
+
 # 海量数据
 
 # 安全方面
