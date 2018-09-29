@@ -42,6 +42,7 @@
   * [java性能监控工具](xing-neng-neng-diao-you/javaxing-neng-jian-kong-gong-ju.md)
 * [设计模式](she-ji-mo-shi.md)
 * [操作系统](cao-zuo-xi-tong.md)
+  * [Linux](cao-zuo-xi-tong/linux.md)
 * [海量数据](hai-liang-shu-ju.md)
 * [安全方面](an-quan-fang-mian.md)
 * [常用架构方案](chang-yong-jia-gou-fang-an.md)
