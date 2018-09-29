@@ -66,5 +66,14 @@ List<String> list = new ArrayList<>();
 
 ## java8
 
+* Lambda 表达式
+* 方法引用 
+* 默认方法
+*  新工具 − 新的编译工具，如：Nashorn引擎 jjs、 类依赖分析器jdeps。
+* Stream API −新添加的Stream API（java.util.stream） 把真正的函数式编程风格引入到Java中。
+* Date Time API − 加强对日期与时间的处理。
+* Optional 类 − Optional 类已经成为 Java 8 类库的一部分，用来解决空指针异常。
+* Nashorn, JavaScript 引擎 − Java 8提供了一个新的Nashorn javascript引擎，它允许我们在JVM上运行特定的javascript应用。
+
 
 
