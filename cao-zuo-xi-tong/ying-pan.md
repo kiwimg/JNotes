@@ -18,19 +18,9 @@
 
 ## 硬盘的分区
 
-一个是放置该硬盘的信息区，称之为主引导记录\(MBR，Main Boot Record\)，一个是实际文件数据放置的地方.其中，MBR是整个硬盘最重要的区域，一旦MBR物理实体损坏时，则该硬盘就差不多报废了，一般来说，MBR有512个 [字节](https://baike.baidu.com/item/%E5%AD%97%E8%8A%82)，且可以分为两个部分。
+一个是放置该硬盘的信息区，称之为主引导记录\(MBR，Main Boot Record\)，一个是实际文件数据放置的地方.其中，MBR是整个硬盘最重要的区域，一旦MBR物理实体损坏时，则该硬盘就差不多报废了，一般来说，MBR有512个 [字节](https://baike.baidu.com/item/字节)，且可以分为两个部分。
 
 \(1\)第一部分有446个字节，用于存放引导代码，即是[bootloader](https://baike.baidu.com/item/bootloader/8733520)。
 
-\(2\)第二部分有64个字节，用于存放磁盘
-
-[分区表](https://baike.baidu.com/item/%E5%88%86%E5%8C%BA%E8%A1%A8) ：其中，每个分区的信息需要用16个字节来记录。因此，一个硬盘最多可以有4个分区，这4个分区称之为主分区和
-
-[扩展分区](https://baike.baidu.com/item/%E6%89%A9%E5%B1%95%E5%88%86%E5%8C%BA)\(extended\)。注：通常所说的"
-
-[硬盘分区](https://baike.baidu.com/item/%E7%A1%AC%E7%9B%98%E5%88%86%E5%8C%BA/300753) "就是指修改磁盘分区表，它定义了"第n个磁盘块是从第x个
-
-[柱面](https://baike.baidu.com/item/%E6%9F%B1%E9%9D%A2/1994543) 到第y个柱面".因此，当系统要读取第n个磁盘块时，就是去读硬盘上第x个柱面到第y个柱面的信息
-
-
+\(2\)第二部分有64个字节，用于存放磁盘[分区表](https://baike.baidu.com/item/分区表) ：其中，每个分区的信息需要用16个字节来记录。因此，一个硬盘最多可以有4个分区，这4个分区称之为主分区和[扩展分区](https://baike.baidu.com/item/扩展分区)\(extended\)。注：通常所说的"[硬盘分区](https://baike.baidu.com/item/硬盘分区/300753) "就是指修改磁盘分区表，它定义了"第n个磁盘块是从第x个[柱面](https://baike.baidu.com/item/柱面/1994543) 到第y个柱面".因此，当系统要读取第n个磁盘块时，就是去读硬盘上第x个柱面到第y个柱面的信息
 
