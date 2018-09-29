@@ -39,7 +39,7 @@ linux采用的是树型结构。最上层是根目录，其他的所有目录都
 
 ### mount挂载
 
-**挂载的概念                      
+**挂载的概念                        
 **
 
 当要使用某个设备时，例如要读取硬盘中的一个格式化好的分区、光盘或软件等设备时，必须先把这些设备对应到某个目录（这个目录可以不为空，但挂载后这个目录下以前的内容将不可用），而这个目录就称为“挂载点（mount point）”，这样才可以读取这些设备，而这些对应的动作就是“挂载”。
@@ -283,7 +283,7 @@ chmod 764 aaa.txt
 4. 如果想看看是否添加成功，命令是：
    `chkconfig --list`
 
-###  Linux 用户管理
+### Linux 用户管理
 
 Linux系统是一个多用户多任务的分时操作系统，任何一个要使用系统资源的用户，都必须首先向系统管理员申请一个账号，然后以这个账号的身份进入系统。
 
@@ -324,6 +324,31 @@ passwd命令用于设置用户的认证信息，包括用户密码、密码过�
   : 修改用户组的属性
 
 ### 在线安装软件
+
+##### 安装
+
+```rust
+yum install              #全部安装
+yum install package1     #安装指定的安装包package1
+yum groupinsall group1   #安装程序组group1
+```
+
+**删除程序**
+
+```
+yum remove &#124; erase package1   #删除程序包package1
+yum groupremove group1             #删除程序组group1
+yum deplist package1               #查看程序package1依赖情况
+```
+
+**查找和显示**
+
+```
+yum info package1      #显示安装包信息package1
+yum list               #显示所有已经安装和可以安装的程序包
+yum list package1      #显示指定程序包安装情况package1
+yum groupinfo group1   #显示程序组group1信息yum search string 根据关键字string查找安装包
+```
 
 ### 其他常用命令
 
