@@ -45,6 +45,8 @@
   * [Linux](cao-zuo-xi-tong/linux.md)
   * [硬盘](cao-zuo-xi-tong/ying-pan.md)
   * [Vim编辑器](cao-zuo-xi-tong/vimbian-ji-qi.md)
+  * CPU
+  * 内存
 * [海量数据](hai-liang-shu-ju.md)
 * [安全方面](an-quan-fang-mian.md)
 * [常用架构方案](chang-yong-jia-gou-fang-an.md)
