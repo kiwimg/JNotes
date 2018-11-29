@@ -147,11 +147,9 @@ Aug 28 13:27:54 ssserver ssserver[1259]: 2018-08-28 13:27:54 INFO     starting s
 
 参考：[https://blog.csdn.net/liumiaocn/article/details/80011742](https://blog.csdn.net/liumiaocn/article/details/80011742) ；
 
-
-
 # Manjaro17.0.1+SS 模式配置
 
 1、首先安装shadowsocks-qt5客户端
 
-2、打开chrome浏览器，添加[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases/tag/v2.5.20).crx插件 https://github.com/FelisCatus/SwitchyOmega/releases
+2、配置代理 打开chrome浏览器，添加[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases/tag/v2.5.20).crx插件 [https://github.com/FelisCatus/SwitchyOmega/releases](https://github.com/FelisCatus/SwitchyOmega/releases)
 
