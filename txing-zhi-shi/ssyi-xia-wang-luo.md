@@ -1,7 +1,5 @@
 搭建shadowsocks服务端的前提是你应该有一个服务器，推荐一下[DigitalOcean](https://m.do.co/c/e71526d11cd5)。创建服务器的教程详见：[如何在Digitalocean上构建一个服务器](https://www.itfeichai.com/create-a-dg-account-and-connect-droplets)；
 
-
-
 这里介绍的是使用Pip作为管理软件对shadowsocks进行管理，所以我们应该首先安装一下pip。
 
 ## 安装pip
@@ -27,7 +25,7 @@ Collecting wheel
     100% |████████████████████████████████| 51kB 17.5MB/s 
 Installing collected packages: pip, wheel
 Successfully installed pip-18.0 wheel-0.31.1
-[root@ssserver ~]#  
+[root@ssserver ~]#
 ```
 
 ## 安装shadowsocks
@@ -60,7 +58,7 @@ Successfully installed shadowsocks-2.8.2
 
 ```
 {
-    "server":"0.0.0.0",
+    "server":"0.0.0.0",#注意这里的ip地址
     "server_port":50013,
     "local_port":1080,
     "password":"1234567890",
@@ -147,5 +145,5 @@ Aug 28 13:27:54 ssserver ssserver[1259]: 2018-08-28 13:27:54 INFO     starting s
 
 有些CENTOS执行上述操作，虽然shadowsocks运行起来了，但是仍然无法访问，极大可能是防火墙没有开放端口，具体端口开放的方法详见：[CentOS开放端口的方法](https://www.itfeichai.com/centos-open-porter/)。
 
-参考：https://blog.csdn.net/liumiaocn/article/details/80011742 ；
+参考：[https://blog.csdn.net/liumiaocn/article/details/80011742](https://blog.csdn.net/liumiaocn/article/details/80011742) ；
 
