@@ -56,4 +56,5 @@
 * [T型知识](txing-zhi-shi.md)
   * [云计算](txing-zhi-shi/yun-ji-suan.md)
   * [ss一下网络](txing-zhi-shi/ssyi-xia-wang-luo.md)
+  * [各种定律和法则](txing-zhi-shi/ge-zhong-ding-lv-he-fa-ze.md)
 
